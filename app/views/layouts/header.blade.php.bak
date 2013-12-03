@@ -1,0 +1,10 @@
+<header class="row">
+    <div class="col-sm-3">
+        <img src="img/logo.png" width="300px" height="90px"/>
+    </div>
+    <div class="col-sm-9">
+        @section('navigation')
+            @include('layouts.navigation')
+        @show
+    </div>
+</header>
